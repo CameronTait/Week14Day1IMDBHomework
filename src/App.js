@@ -1,9 +1,8 @@
 import React from 'react';
+import MovieBox from "./containers/MovieBox";
 
 function App() {
-  return (
-    <h1>Hello World</h1>
-  );
+  return <MovieBox />;
 }
 
 export default App;
